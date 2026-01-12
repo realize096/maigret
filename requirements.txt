@@ -1,5 +1,5 @@
 aiodns==3.0.0
-aiohttp==3.8.3
+aiohttp==3.13.3
 aiohttp-socks==0.7.1
 arabic-reshaper==2.1.4
 async-timeout==4.0.2
@@ -37,3 +37,4 @@ networkx==2.6.3
 pyvis==0.2.1
 reportlab==3.6.12
 cloudscraper==1.2.66
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
